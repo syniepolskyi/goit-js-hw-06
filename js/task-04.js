@@ -9,7 +9,6 @@ const onClick = (ev) => {
         counterValue--;
     }
     spanValue.innerText = counterValue;
-    return false;
 };
 
 for (const btn of btns){ 

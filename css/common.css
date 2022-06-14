@@ -31,9 +31,7 @@ button {
 }
 
 .gallery > li {
-  display: block;
   width: 300px;
-  box-sizing: border-box;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -41,7 +39,6 @@ button {
 }
 
 .gallery > li > img {
-  box-sizing: border-box;
   width: 100%;
 }
 
